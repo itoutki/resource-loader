@@ -493,6 +493,7 @@ Resource.prototype._loadXhr = function () {
         xhr.responseType = this.xhrType;
     }
 
+    xhr.withCredentials = true;
     xhr.addEventListener('error', this._boundXhrOnError, false);
     xhr.addEventListener('abort', this._boundXhrOnAbort, false);
     xhr.addEventListener('progress', this._boundOnProgress, false);
