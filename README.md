@@ -1,4 +1,5 @@
 # Resource Loader [![Build Status](https://travis-ci.org/englercj/resource-loader.svg?branch=master)](https://travis-ci.org/englercj/resource-loader)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fitoutki%2Fresource-loader.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fitoutki%2Fresource-loader?ref=badge_shield)
 
 A generic resource loader, made with web games in mind.
 
@@ -67,3 +68,7 @@ That will output the built distributables to `./dist`.
 - No more isJson, isXml, etc. Now use `res.type === Resource.TYPE.JSON`, etc.
 - Removed `before` (in favor of `pre`) and `after` (in favor of `use`).
 - If a middleware adds more resources, it *must* pass in the parent resource in options for `.add()`.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fitoutki%2Fresource-loader.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fitoutki%2Fresource-loader?ref=badge_large)
